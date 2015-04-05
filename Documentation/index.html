@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>Leaff</title>
+ 	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="copyright" content="">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-11-24T19:14:53+01:00">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+
+	<style>
+		html, body{background-color:#FFFFFF;color:#383838;}
+		h1,h2,h3,h4,h5,h6{color:#383838;}
+		section table{background-color:#FFFFFF;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		a.brand{background-image:url();}
+		a, a:hover, a:active{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		div.navbar-inner, .navbar .nav li ul{background:#DDDDDD;color:#222222;}
+		a.btn-navbar{background:#DDDDDD;color:#222222;}
+		.navbar .nav li a{color:#222222;text-shadow:1px 1px 0px #EEEEEE;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		.marketing-byline{color:#FFFFFF;}
+		.navbar .nav > li a{color:#444444;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#444444;color:#DDDDDD;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#444444;color:#DDDDDD;}
+		.navbar .nav li ul li a:hover{background:#444444;color:#DDDDDD;}
+		.navbar .nav li ul li a:active{background:#444444;color:#DDDDDD;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #0044CC;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+
+
+
+    </head>
+
+<body class="documenter-project-leaff" data-spy="scroll" id="top">
+
+
+<!-- Main Container Beginning -->
+
+<div class="container" id="documenter_content">
+
+  <section id="hell">
+	<div class="page-header"><h3>Leaff</h3><hr class="notop"></div>
+<h3>
+	Hi customer!</h3>
+<div>
+	Thank you for choosing this template. If you have any questions please feel free to email here &#119;&#101;&#98;&#45;&#109;&#97;&#115;&#116;&#101;&#114;&#55;&#50;&#64;&#121;&#97;&#110;&#100;&#101;&#120;&#46;&#114;&#117;.</div>
+<h3>
+	Preloader:</h3>
+<p>
+	You can change preloader image (style.css):</p>
+<pre class="prettyprint lang-css linenums">
+#status, .status-mes {
+   background-image: url(../images/preloader1.gif);
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 200px;
+   left: 50%;
+   margin: -100px 0 0 -100px;
+   position: absolute;
+   top: 50%;
+  width: 200px;
+}</pre>
+<p>
+	Or replace&nbsp;<strong><span style="line-height: 19px;">preloader1.gif&nbsp;</span></strong><span style="line-height: 19px;">in images folder.</span></p>
+<h3>
+	Home section:</h3>
+<p>
+	Required classes:</p>
+<pre class="prettyprint lang-html linenums">
+.intro-module</pre>
+<p>
+	For default home section style.</p>
+<pre class="prettyprint lang-html linenums">
+.heightfull</pre>
+<p>
+	For full height.</p>
+
+<h4 id="hell_parallax">Image:</h4>
+<p>
+	To use image home section you need to add class with image and add class&nbsp;<strong>.module-image</strong>:</p>
+<div>
+	<pre class="prettyprint lang-html linenums">
+&lt;!-- Home start --&gt;
+
+&lt;section id=&quot;home&quot; class=&quot;intro-module module-image heightfull&quot;&gt;
+
+...
+
+&lt;/section&gt;
+
+&lt;!-- Home end --&gt;</pre>
+	<p>
+		Class with your image:</p>
+</div>
+<pre class="prettyprint lang-html linenums">
+.module-image</pre>
+<p>
+	You can change it (style.css)</p>
+<pre class="prettyprint lang-css linenums">
+.module-image {
+	background-color: #222;
+	background-image: url(../images/home-1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}</pre>
+
+<h4 id="hell_parallax">Parallax:</h4>
+<p>You can add parallax effect to home and callout sections, just add class <strong>.parallax</strong>:
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Home start --&gt;
+
+&lt;section id=&quot;home&quot; class=&quot;intro-module module-image parallax heightfull&quot;&gt;
+
+...
+
+&lt;/section&gt;
+
+&lt;!-- Home end --&gt;</pre>
+
+
+<h4 id="hell_slideshow">Slideshow:</h4>
+<p>
+	To use slideshow home section you need to add class .<strong>slideshow</strong>:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Home start --&gt;
+
+&lt;section id=&quot;home&quot; class=&quot;intro-module slideshow heightfull&quot;&gt;
+
+...
+
+&lt;/section&gt;
+
+&lt;!-- Home end --&gt;</pre>
+<p>
+	Change slideshow images (custom.js)</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------------- /*
+ * Background image slideshow, video.
+/* ---------------------------------------------- */
+
+// Slideshow background
+
+$(&#39;.slideshow&#39;).backstretch([
+   &#39;assets/images/home-1.jpg&#39;,
+   &#39;assets/images/home-2.jpg&#39;,
+   &#39;assets/images/home-3.jpg&#39;
+], {duration: 3000, fade: 600});</pre>
+<h4 id="hell_video">Video:</h4>
+<p>
+	To use video home section add class&nbsp;<strong>.video-background</strong></p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Home start --&gt;
+
+&lt;section id=&quot;home&quot; class=&quot;intro-module video-background heightfull&quot;&gt;
+
+...
+
+&lt;/section&gt;
+
+&lt;!-- Home end --&gt;</pre>
+<p>
+	Change video (custom.js)</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------------- /*
+ * Background image slideshow, video.
+/* ---------------------------------------------- */
+
+...
+
+// Video background
+
+var $videoBackground = $(&#39;.video-background&#39;);
+if ($videoBackground.length &gt; 0) {
+   var BV = new $.BigVideo({
+      container: $(&#39;.video-background&#39;),
+      useFlashForFirefox: false
+  });
+   BV.init();
+   BV.show(
+     { type: &quot;video/mp4&quot;,   src: &quot;assets/video/video.mp4&quot;, ambient:true },
+     { type: &quot;video/webm&quot;,  src: &quot;assets/video/video.webm&quot;, ambient:true },
+     { type: &quot;video/ogg&quot;,   src: &quot;assets/video/video.ogv&quot;, ambient:true }
+  );
+}</pre>
+<h3>
+	Twitter</h3>
+<p>
+	Create an ID:</p>
+<p>
+	Go to www.twitter.com and sign in as normal, go to your settings page.</p>
+<p>
+	Go to &quot;Widgets&quot; on the left hand side.</p>
+<p>
+	Create a new widget for &quot;user timeline&quot;. Feel free to check &quot;exclude replies&quot;</p>
+<p>
+	If you dont want replies in results.</p>
+<p>
+	Now go back to settings page, and then go back to widgets page, you should see the widget you just created. Click edit.</p>
+<p>
+	Now look at the URL in your web browser, you will see a long number like this: 345735908357048478</p>
+<p>
+	Use this as your ID below instead! (assets/js/custom.js)</p>
+<p>
+	&nbsp;</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------------- /*
+ * Twitter
+/* ---------------------------------------------- */
+
+var twitterConfig = {
+   id: &#39;345170787868762112&#39;,
+   domId: &#39;&#39;,
+   maxTweets: 3,
+   enableLinks: true,
+   showUser: false,
+   customCallback: handleTweets
+};</pre>
+<h3>
+	Date and time picker</h3>
+<p>
+	You can change&nbsp;<strong>step&nbsp;</strong>and&nbsp;<strong>format&nbsp;</strong>of date.</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------------- /*
+ * Date and time picker
+/* ---------------------------------------------- */
+
+$(&#39;#btime&#39;).timepicker({ &#39;step&#39;: 30 });
+
+$(&#39;#bdate&#39;).datepicker({
+   &#39;format&#39;: &#39;m/d/yyyy&#39;,
+   &#39;autoclose&#39;: true
+});</pre>
+<h3>
+	Configuring MailChimp</h3>
+<p>
+	Open the file assets/php/subscribe.php and enter your data:</p>
+<pre class="prettyprint lang-php linenums">
+// MailChimp
+$APIKey = &#39;89d53601cd6c608607b3f4c60c3f5****&#39;;
+$listID = &#39;6df4a56***&#39;;</pre>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	Grab an API Key from http://admin.mailchimp.com/account/api/</div>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	Grab your List&#39;s Unique Id by going to http://admin.mailchimp.com/lists/</div>
+<p>
+	&nbsp;</p>
+<h3>
+	Configuring Contact form</h3>
+<p>
+	Open the file assets/php/contact.php and enter your data:</p>
+<pre class="prettyprint lang-php linenums">
+// Your email
+$to = &#39;&#119;&#101;&#98;&#45;&#109;&#97;&#115;&#116;&#101;&#114;&#55;&#50;&#64;&#121;&#97;&#110;&#100;&#101;&#120;&#46;&#114;&#117;&#39;;
+$subject = &#39;Contact form&#39;;</pre>
+<h3>
+	Booking form</h3>
+<p>
+	Open the file assets/php/bookingphp and enter your data:</p>
+<pre class="prettyprint lang-php linenums">
+// Your email
+$to = &#39;&#119;&#101;&#98;&#45;&#109;&#97;&#115;&#116;&#101;&#114;&#55;&#50;&#64;&#121;&#97;&#110;&#100;&#101;&#120;&#46;&#114;&#117;&#39;;
+$subject = &#39;Book a table&#39;;
+$autoresponder = &#39;Your booking has been submitted. Our manager will contact you shortly.&#39;;</pre>
+<h4 id="hell_if_contact_form_or_booking_not_working">If Contact form or booking form not working</h4>
+<p>
+	You need to check is PHP mail() function working.</p>
+<pre class="prettyprint lang-php linenums">
+&lt;?php
+   mail(&#39;&#121;&#111;&#117;&#64;&#121;&#111;&#117;&#114;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&#39;,&#39;Test mail&#39;,&#39;The mail function is working!&#39;);
+   echo &#39;Mail sent!&#39;;
+?&gt;</pre>
+<ol>
+	<li>
+		Save this code as mailtest.php</li>
+	<li>
+		change &#121;&#111;&#117;&#64;&#121;&#111;&#117;&#114;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109; to your e-mail address</li>
+	<li>
+		upload mailtest.php to your server</li>
+	<li>
+		open mailtest.php in your browser (http://yourwebsite.com/mailtest.php)</li>
+	<li>
+		check your inbox to see if a test message arrived.</li>
+</ol>
+<p>
+	<strong>If it works:</strong></p>
+<ol>
+	<li>
+		double-check your form script for errors (like e-mail address misspelling)</li>
+	<li>
+		use the same e-mail address as your form recipient</li>
+	<li>
+		double-check your SPAM filters and SPAM/Junk/Bulk mailboxes</li>
+</ol>
+<p>
+	<strong>If it not</strong></p>
+<p>
+	Contact your host and ask them to check PHP mail() setting.</p>
+<h3>
+	Map</h3>
+<p>
+	Open the file assets/js/custom.js and it with your data:</p>
+<pre class="prettyprint lang-js linenums">
+/* ---------------------------------------------- /*
+ * Google Map
+/* ---------------------------------------------- */
+
+var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);</pre>
+<h3>
+	WOW Animation</h3>
+<p>
+	Animations When You Scroll. Add class to any element wow, then add class of&nbsp;<a href="http://daneden.github.io/animate.css/">animations</a>.</p>
+<p>
+	Example 1:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;p class=&quot;wow fadeInUp&quot;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.&lt;/p&gt;</pre>
+<p>
+	Example 2:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;col-md-4 col-sm-4 wow fadeInRight&quot; data-wow-delay=&quot;.6s&quot; &gt;
+...
+&lt;/div&gt;</pre>
+<p>
+	If you have any questions please feel free to email here&nbsp;&#119;&#101;&#98;&#45;&#109;&#97;&#115;&#116;&#101;&#114;&#55;&#50;&#64;&#121;&#97;&#110;&#100;&#101;&#120;&#46;&#114;&#117;</p>
+<div>
+	&nbsp;</div>
+</section>
+
+
+<!-- <pre class="prettyprint lang-html linenums">
+.heightfull</pre> -->
+
+<h3>Transparent navbar</h3>
+<p>Just add class ".navbar-transparent" to navigation.</p>
+
+<p>Example:</p>
+
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Navigation start --&gt;
+&lt;nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation"&gt;
+	...
+&lt;/nav&gt;
+&lt;!-- Navigation end --&gt;
+</pre>
+
+
+<h3>Dark effect</h3>
+<p>Use special classes(.bg-dark-alfa-30,.bg-dark-alfa-60,.bg-dark-alfa-90) to add dark effect to image sections(module-image, callout).</p>
+
+<p>Example 1:</p>
+
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Home start --&gt;
+&lt;section id="home" class="intro-module module-image heightfull bg-dark-alfa-30"&gt;
+	...
+&lt;/section&gt;
+&lt;!-- Home end --&gt;
+</pre>
+
+<p>Example 2:</p>
+
+<pre class="prettyprint lang-html linenums">
+&lt;!-- Callout section start --&gt;
+&lt;section id="callout-one" class="callout bg-dark-alfa-60"&gt;
+	...
+&lt;/section&gt;
+&lt;!-- Callout section end --&gt;
+</pre>
+
+<!-- ------------------------------------------------------------------ -->
+
+<h3>On/Off date and time piker on mobile </h3>
+<p>You can turn of date and time piker on mobile.</p>
+
+<p>Example:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;form id=&quot;booking-form&quot; role=&quot;form&quot; data-mobiletimepiker=&quot;Off&quot; novalidate&gt;
+...
+&lt;/form&gt;</pre>
+<!-- ------------------------------------------------------------------ -->
+<p>
+	If you have any questions please feel free to email here&nbsp;&#119;&#101;&#98;&#45;&#109;&#97;&#115;&#116;&#101;&#114;&#55;&#50;&#64;&#121;&#97;&#110;&#100;&#101;&#120;&#46;&#114;&#117;</p>
+<div>
+	&nbsp;</div>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright  2014 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container -->
+
+<!-- Le javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/google-code-prettify/prettify.js"></script>
+<script src="assets/js/bootstrap-min.js"></script>
+</body>
+</html>
