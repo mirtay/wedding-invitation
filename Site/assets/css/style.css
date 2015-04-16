@@ -543,15 +543,15 @@ textarea.form-control {
 }
 
 #callout-one {
-	background-image: url(../images/ch_nesting_birds.jpg);
+	background-image: url(../images/ch_birdhouse.jpg);
 }
 
 #callout-two {
-	background-image: url(../images/ch_feeding_birds.jpg);
+	background-image: url(../images/ch_nesting_birds.jpg);
 }
 
 #callout-three {
-	background-image: url(../images/ch_angry_owls.jpg);
+	background-image: url(../images/ch_racoon.jpg);
 }
 
 /* ---------------------------------------------- /*
@@ -560,7 +560,7 @@ textarea.form-control {
 
 .module-image {
 	background-color: #222;
-	background-image: url(../images/ch_heart_birds.jpg);
+	background-image: url(../images/ch_spring_scene_cropped.jpg);
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;
