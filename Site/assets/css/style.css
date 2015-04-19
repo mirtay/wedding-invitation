@@ -547,11 +547,11 @@ textarea.form-control {
 }
 
 #callout-two {
-	background-image: url(../images/ch_nesting_birds.jpg);
+	background-image: url(../images/ch_racoon.jpg);
 }
 
 #callout-three {
-	background-image: url(../images/ch_racoon.jpg);
+	background-image: url(../images/ch_ladybug_heart_cropped.jpg);
 }
 
 /* ---------------------------------------------- /*
@@ -560,7 +560,7 @@ textarea.form-control {
 
 .module-image {
 	background-color: #222;
-	background-image: url(../images/ch_spring_scene_cropped.jpg);
+	background-image: url(../images/ch_nature_center.jpg);
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;
