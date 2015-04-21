@@ -151,7 +151,7 @@
 			navigation: false,
 			singleItem: true,
 			slideSpeed: 600,
-			autoPlay: 3000
+			autoPlay: 5000
 		});
 
 		$('.testimonials-slider').owlCarousel({

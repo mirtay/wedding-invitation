@@ -870,6 +870,7 @@ textarea.form-control {
 #map-section {
 	position: relative;
 	width: 100%;
+	max-height: 400px;
 }
 
 #map {
@@ -941,7 +942,7 @@ textarea.form-control {
 
 .navbar-custom .navbar-brand {
 	font-family: 'Dancing Script', cursive;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 32px;
 }
 
